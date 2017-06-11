@@ -1,0 +1,18 @@
+{
+  "name": "codechewing.com",
+  "version": "1.0.0",
+  "description": "Company website for Code Chewing",
+  "scripts": {
+    "sass:build": "node-sass ./sass/base.scss ./public/assets/css/styles.css --output-style compressed",
+    "sass:watch": "npm run sass:build && npm run sass:build -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/pjlangley/codechewing.com.git"
+  },
+  "author": "Peter J Langley",
+  "homepage": "https://bitbucket.org/pjlangley/codechewing.com",
+  "devDependencies": {
+    "node-sass": "4.5.3"
+  }
+}
