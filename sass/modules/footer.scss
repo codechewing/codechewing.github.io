@@ -1,0 +1,56 @@
+.footer {
+  clear: both;
+  position: relative;
+  color: #9a9a9a;
+
+  .container {
+    border-top: 1px solid #ececec;
+    padding-top: 50px;
+  }
+
+  .other-things {
+    padding-bottom: 50px;
+
+    .title {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: #9a9a9a;
+    }
+
+    h2 a {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 1.7em;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .company-info {
+    font-size: 11px;
+    border-top: 1px solid #ececec;
+    padding: 20px 0;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+
+    li {
+      display: inline;
+    }
+
+    li + li:before {
+        content: ' | ';
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.content {
+  padding: 50px 0;
+
+  .contact {
+    text-align: center;
+
+    .mobile-phone {
+      max-width: 60px;
+      transform: rotate(-5deg);
+      opacity: 0.8;
+      animation: mobilePhone 2s infinite;
+      transition: all 0.1s ease;
+      outline: 1px solid transparent;
+    }
+
+    p {
+      padding-top: 10px;
+      font-size: 16px;
+    }
+  }
+
+  @keyframes mobilePhone {
+    0% {
+      transform: rotate(-5deg);
+    }
+
+    50% {
+      transform: rotate(5deg);
+    }
+
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+}

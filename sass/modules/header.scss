@@ -1,0 +1,53 @@
+.upgrade-browser {
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.banner {
+  animation: bannerGradient 30s infinite;
+  transition: all 0.1s ease;
+  box-shadow: 0 4px 8px -3px rgba(0,0,0,0.2);
+
+  @keyframes bannerGradient {
+    0% {
+      background: #fff;
+    }
+
+    16% {
+      background: #f4f4f4;
+    }
+
+    32% {
+      background: #efefef;
+    }
+
+    49% {
+      background: #f4f9fe;
+    }
+
+    65% {
+      background: #edfcff;
+    }
+
+    81% {
+      background: #f2fdff;
+    }
+
+    100% {
+      background: #fff;
+    }
+  }
+
+  .header {
+    padding: 50px 0;
+
+    .logo {
+      max-width: 280px;
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-top: 46px;
+    }
+  }
+}
