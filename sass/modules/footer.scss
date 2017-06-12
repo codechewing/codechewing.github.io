@@ -32,6 +32,31 @@
         text-decoration: underline;
       }
     }
+
+    .social-wrap {
+      padding-top: 40px;
+      border-top: 1px solid #eee;
+      margin-top: 40px;
+
+      @media screen and (min-width: 768px) {
+        padding-top: initial;
+        border-top: initial;
+        margin-top: initial;
+      }
+
+      ul {
+        padding-top: 15px;
+        padding-left: 0;
+        list-style: none;
+      }
+
+      .twitter {
+        img {
+          width: 50px;
+          margin-left: -10px;
+        }
+      }
+    }
   }
 
   .company-info {
@@ -51,6 +76,19 @@
 
     li + li:before {
         content: ' | ';
+    }
+
+    .logo-wrap {
+      padding-top: 10px;
+
+      @media screen and (min-width: 768px) {
+        text-align: right;
+        padding-top: initial;
+      }
+
+      .logo {
+        width: 60px;
+      }
     }
   }
 }

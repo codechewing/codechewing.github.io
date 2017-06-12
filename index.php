@@ -21,7 +21,7 @@
     <div class="container">
         <header class="row header">
             <div class="col-sm-12 text-center">
-                <img src="/public/assets/img/code-chewing-logo.png" alt="Code Chewing Logo" class="logo">
+                <img src="/public/assets/img/code-chewing-logo-white.png" alt="Code Chewing Logo in white" class="logo">
                 <h1>We build software - websites, mobile &amp; desktop apps.</h1>
             </div>
         </header>
@@ -36,11 +36,11 @@
             </div>
             <div class="col-sm-12">
                 <p>
-                    Get in touch with us via
+                    Let's talk.
                     <a href="https://twitter.com/codechewing"
                        rel="nofollow noopener noreferrer"
                        target="_blank"
-                       title="Code Chewing - twitter">@codechewing</a>.
+                       title="Code Chewing on twitter">@codechewing</a>
                 </p>
             </div>
         </div>
@@ -63,7 +63,7 @@
                 </h2>
                 <p>
                     Code Chewing Guides target challenges within web technology.
-                    Providing free, educational solutions, written in a straight to the point manner.
+                    Providing free, educational solutions, shared in a straight to the point manner.
                     <a href="https://guides.codechewing.com"
                        rel="nofollow noopener noreferrer"
                        target="_blank"
@@ -80,6 +80,19 @@
                     </a>
                 </p>
             </div>
+            <div class="col-sm-6 social-wrap">
+                <small class="title">Getting social</small>
+                <ul>
+                    <li class="twitter">
+                        <a href="https://twitter.com/codechewing"
+                           rel="nofollow noopener noreferrer"
+                           target="_blank"
+                           title="Code Chewing on twitter">
+                            <img src="/public/assets/img/twitter.png" alt="Twitter">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="row company-info">
             <div class="col-sm-6">
@@ -87,6 +100,9 @@
                     <li>Code Chewing Ltd</li>
                     <li>Company no. 10140190</li>
                 </ul>
+            </div>
+            <div class="col-sm-6 logo-wrap">
+                <img src="/public/assets/img/code-chewing-logo.png" alt="Code Chewing Logo" class="logo">
             </div>
         </div>
     </div>
