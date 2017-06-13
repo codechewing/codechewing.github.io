@@ -36,7 +36,7 @@
             </div>
             <div class="col-sm-12">
                 <p>
-                    Let's talk.
+                    Let's discuss.
                     <a href="https://twitter.com/codechewing"
                        rel="nofollow noopener noreferrer"
                        target="_blank"
