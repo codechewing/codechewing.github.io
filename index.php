@@ -41,6 +41,9 @@
                        rel="nofollow noopener noreferrer"
                        target="_blank"
                        title="Code Chewing on twitter">@codechewing</a>
+                    /
+                    <a href="mailto:contact@codechewing.com?subject=Hello"
+                       title="Code Chewing by email">contact@codechewing.com</a>
                 </p>
             </div>
         </div>
