@@ -50,10 +50,20 @@
         list-style: none;
       }
 
+      li {
+        display: inline-block;
+      }
+
       .twitter {
         img {
           width: 50px;
           margin-left: -10px;
+        }
+      }
+
+      .instagram {
+        img {
+          width: 30px;
         }
       }
     }
