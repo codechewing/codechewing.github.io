@@ -65,21 +65,14 @@
                     </a>
                 </h2>
                 <p>
-                    Code Chewing Guides target challenges within web technology.
-                    Providing free, educational solutions, shared in a straight to the point manner.
+                    Code Chewing Guides target challenges that arise in software development. Providing
+                    free, educational solutions, shared in a straight to the point manner.
                     <a href="https://guides.codechewing.com"
                        rel="nofollow noopener noreferrer"
                        target="_blank"
                        title="Code Chewing Guides"
                     >
                         Check it out.
-                    </a>
-                </p>
-
-                <p>
-                    For our older blog -
-                    <a href="http://www.codechewing.com/library" rel="nofollow noopener noreferrer" target="_blank">
-                       see here.
                     </a>
                 </p>
             </div>
@@ -91,7 +84,15 @@
                            rel="nofollow noopener noreferrer"
                            target="_blank"
                            title="Code Chewing on twitter">
-                            <img src="/public/assets/img/twitter.png" alt="Twitter">
+                            <img src="/public/assets/img/twitter.png" alt="Twitter Logo">
+                        </a>
+                    </li>
+                    <li class="instagram">
+                        <a href="https://www.instagram.com/codechewing"
+                           rel="nofollow noopener noreferrer"
+                           target="_blank"
+                           title="Code Chewing on instagram">
+                            <img src="/public/assets/img/instagram.png" alt="Instagram Logo">
                         </a>
                     </li>
                 </ul>
@@ -101,7 +102,8 @@
             <div class="col-sm-6">
                 <ul>
                     <li>Code Chewing Ltd</li>
-                    <li>Company no. 10140190</li>
+                    <li>Company 10140190</li>
+                    <li>VAT 277337277</li>
                 </ul>
             </div>
             <div class="col-sm-6 logo-wrap">
