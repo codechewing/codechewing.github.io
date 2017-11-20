@@ -22,7 +22,11 @@
         <header class="row header">
             <div class="col-sm-12 text-center">
                 <img src="/public/assets/img/code-chewing-logo-white.png" alt="Code Chewing Logo in white" class="logo">
-                <h1>We build software - websites, mobile &amp; desktop apps.</h1>
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                        <h1>Empowering people to fulfill their passions, visions and goals.</h1>
+                    </div>
+                </div>
             </div>
         </header>
     </div>
@@ -31,11 +35,17 @@
 <div class="content">
     <div class="container">
         <div class="row contact">
+            <div class="col-md-8 col-md-offset-2">
+                <p class="company-what">
+                    The way we empower people, is by creating innovative solutions using today's software capabilities
+                    and ubiquitous reach - delivering the best experiences through websites, mobile & desktop apps.
+                </p>
+            </div>
             <div class="col-sm-12">
                 <img src="/public/assets/img/mobile-phone.png" alt="Mobile Phone" class="mobile-phone">
             </div>
             <div class="col-sm-12">
-                <p>
+                <p class="contact-details">
                     Let's discuss.
                     <a href="https://twitter.com/codechewing"
                        rel="nofollow noopener noreferrer"
@@ -100,10 +110,10 @@
         </div>
         <div class="row company-info">
             <div class="col-sm-6">
-                <ul>
-                    <li>Code Chewing Ltd</li>
-                    <li>Company 10140190</li>
-                    <li>VAT 277337277</li>
+                <ul class="row">
+                    <li class="col-sm-12 col-md-3">Code Chewing Ltd</li>
+                    <li class="col-sm-12 col-md-3">Company 10140190</li>
+                    <li class="col-sm-12 col-md-3">VAT 277337277</li>
                 </ul>
             </div>
             <div class="col-sm-6 logo-wrap">

@@ -1,6 +1,14 @@
 .content {
   padding: 50px 0;
 
+  .company-what {
+    border-bottom: 1px solid #ececec;
+    color: #9a9a9a;
+    font-size: 16px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
   .contact {
     text-align: center;
 
@@ -13,7 +21,7 @@
       outline: 1px solid transparent;
     }
 
-    p {
+    .contact-details {
       padding-top: 10px;
       font-size: 16px;
     }

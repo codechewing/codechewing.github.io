@@ -81,11 +81,7 @@
     }
 
     li {
-      display: inline;
-    }
-
-    li + li:before {
-        content: ' | ';
+      padding-bottom: 4px;
     }
 
     .logo-wrap {
