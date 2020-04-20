@@ -1,18 +1,35 @@
 {
   "name": "codechewing.com",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Company website for Code Chewing",
-  "scripts": {
-    "sass:build": "node-sass ./sass/base.scss ./public/assets/css/styles.css --output-style compressed",
-    "sass:watch": "npm run sass:build && npm run sass:build -- -w"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/pjlangley/codechewing.com.git"
+    "url": "git+https://github.com/codechewing/codechewing.github.io"
   },
+  "scripts": {
+    "build:prod": "node-sass ./sass/base.scss --output-style compressed | postcss -u autoprefixer -o ./assets/css/main.css",
+    "build:watch": "node-sass ./sass/base.scss ./assets/css/main.css -w"
+  },
+  "private": true,
   "author": "Peter J Langley",
-  "homepage": "https://bitbucket.org/pjlangley/codechewing.com",
+  "homepage": "https://codechewing.com",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
-    "node-sass": "4.5.3"
+    "autoprefixer": "^9.7.6",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.1.6",
+    "node-sass": "4.13.1",
+    "postcss-cli": "^7.1.0",
+    "prettier": "^2.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{scss,md,html}": "prettier --write --prose-wrap always"
   }
 }

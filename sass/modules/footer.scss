@@ -38,7 +38,7 @@
       border-top: 1px solid #eee;
       margin-top: 40px;
 
-      @media screen and (min-width: 768px) {
+      @media (min-width: 768px) {
         padding-top: initial;
         border-top: initial;
         margin-top: initial;
@@ -87,7 +87,7 @@
     .logo-wrap {
       padding-top: 10px;
 
-      @media screen and (min-width: 768px) {
+      @media (min-width: 768px) {
         text-align: right;
         padding-top: initial;
       }
