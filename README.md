@@ -1,8 +1,6 @@
 # Code Chewing
 
-Welcome to the source code for [codechewing.com](https://codechewing.com). The
-mirror of this website is also available from
-[codechewing.github.io](https://codechewing.github.io).
+Welcome to the source code for [codechewing.com](https://codechewing.com).
 
 ## License
 
@@ -11,4 +9,4 @@ unfortunately not available under an open source license.
 
 ---
 
-&copy; 2020 Code Chewing Ltd
+&copy; 2021 Code Chewing Ltd
