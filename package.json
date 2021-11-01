@@ -1,35 +1,20 @@
 {
   "name": "codechewing.com",
-  "version": "2.0.0",
-  "description": "Company website for Code Chewing",
+  "version": "3.0.0",
+  "description": "Company website for Code Chewing Ltd",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codechewing/codechewing.github.io"
   },
   "scripts": {
-    "build:prod": "node-sass ./sass/base.scss --output-style compressed | postcss -u autoprefixer -o ./assets/css/main.css",
-    "build:watch": "node-sass ./sass/base.scss ./assets/css/main.css -w"
+    "build:prod": "NODE_ENV=production npx tailwindcss -i ./css/main.css -o ./dist/main.css --minify",
+    "build:watch": "npx tailwindcss -i ./css/main.css -o ./dist/main.css --watch",
+    "lint:fix": "npx prettier --write --prose-wrap always ."
   },
   "private": true,
   "author": "Peter J Langley",
   "homepage": "https://codechewing.com",
   "browserslist": [
     "defaults"
-  ],
-  "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "husky": "^4.2.5",
-    "lint-staged": "^10.1.6",
-    "node-sass": "4.13.1",
-    "postcss-cli": "^7.1.0",
-    "prettier": "^2.0.4"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{scss,md,html}": "prettier --write --prose-wrap always"
-  }
+  ]
 }
